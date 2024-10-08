@@ -1,0 +1,759 @@
+/* ========== RESET CSS ===========*/
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.navbar ul {
+    list-style: none;
+}
+
+.navbar {
+    background-color: #00050d;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: 17px;
+    height: 67px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 60px;
+}
+
+.navbar nav ul li {
+    letter-spacing: 0.8px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 12px 8px 12px;
+}
+
+.navbar nav:first-child ul {
+    display: flex;
+    column-gap: 20px;
+}
+
+.navbar nav:nth-child(2) ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+#menu-bar {
+    transform: translateY(-200px);
+}
+
+#home {
+    transform: translate(-90px);
+}
+
+#movies {
+    transform: translate(-88px);
+}
+
+#tv-shows {
+    transform: translate(-90px);
+}
+
+#live-tv {
+    transform: translate(-90px);
+}
+
+#seperation {
+    transform: translate(-90px);
+    height: 35px;
+    border: 0px solid #66696e;
+    border-radius: 0px;
+    border-width: 0 0 0 3px;
+}
+
+#subscription-logo {
+    width: 21px;
+}
+
+#subscription-flex {
+    transform: translate(-95px);
+    display: flex;
+    gap: 5px;
+}
+
+#search-logo {
+    width: 19px;
+}
+
+.navbar select {
+    border: none;
+    font-weight: 500;
+    font-size: 15px;
+    color: white;
+    background-color: #00050d;
+}
+
+#menu-logo {
+    width: 20px;
+}
+
+#user-logo {
+    width: 32px;
+}
+
+.navbar nav:nth-child(2) ul li:nth-child(4) {
+    padding: 8px;
+}
+
+.navbar button {
+    border: none;
+    border-radius: 8px;
+    width: 115px;
+    font-size: 16px;
+    color: rgb(239, 234, 234);
+    background-color: #157bcf;
+    font-weight: 600;
+    padding: 12px 10px;
+}
+
+.navbar button:hover {
+    color: white;
+    background-color: #1b99ff;
+    box-shadow: 0 0 17px #157bcf;
+}
+
+.navbar nav:first-child ul li:nth-child(2):hover {
+    select {
+        background-color: white;
+        color: #00050d;
+    }
+
+    background-color: white;
+}
+
+.navbar nav:first-child ul li:nth-child(3):hover {
+    transition: 0.2s;
+    background-color: white;
+    color: #00050d;
+    box-shadow: 0 0 3px white
+}
+
+.navbar nav:first-child ul li:nth-child(4):hover {
+    transition: 0.2s;
+    background-color: white;
+    color: #00050d;
+    box-shadow: 0 0 3px white
+}
+
+.navbar nav:first-child ul li:nth-child(5):hover {
+    transition: 0.2s;
+    background-color: white;
+    color: #00050d;
+    box-shadow: 0 0 3px white
+}
+
+.navbar nav:first-child ul li:nth-child(6):hover {
+    transition: 0.2s;
+    background-color: white;
+    color: #00050d;
+    box-shadow: 0 0 3px white
+}
+
+.navbar nav:first-child ul li:nth-child(8):hover {
+    transition: 0.2s;
+    background-color: white;
+    color: #00050d;
+    box-shadow: 0 0 3px white
+}
+
+.navbar nav:nth-child(2) ul li:nth-child(1):hover {
+    border-radius: 20px;
+    background-color: white;
+    color: #00050d;
+}
+
+.navbar nav:nth-child(2) ul li:nth-child(2):hover {
+    select {
+        background-color: white;
+        color: #00050d;
+    }
+
+    background-color: white;
+}
+
+.navbar nav:nth-child(2) ul li:nth-child(3):hover {
+    border-radius: 30px;
+    height: 42px;
+    background-color: white;
+    color: #00050d;
+}
+
+.navbar nav:nth-child(2) ul li:nth-child(4):hover {
+    border-radius: 50px;
+    height: 45px;
+    background-color: white;
+    color: #00050d;
+}
+
+.main {
+    color: white;
+    background-image: url(https://m.media-amazon.com/images/G/31/AmazonVideo/2019/MLP.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top right;
+    height: 100vh;
+    padding: 45px 45px;
+}
+
+.heading {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 45%;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 25px;
+}
+
+.heading h1 {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 45px;
+}
+
+.heading p {
+    font-size: 21px;
+}
+
+.heading button {
+    border: none;
+    border-radius: 4px;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    width: 280px;
+    padding: 15px 20px;
+    background-color: #0f79af;
+    margin-top: 20px;
+}
+
+.main2 {
+    color: white;
+    background-image: url(https://m.media-amazon.com/images/G/31/AmazonVideo/2021/X-site/MLP/TVOD/TVOD_MLP_Right.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top right;
+    height: 100vh;
+    padding: 45px 45px;
+    ;
+}
+
+.heading2 {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 45%;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 25px;
+}
+
+.heading2 h1 {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 45px;
+}
+
+.heading2 p {
+    font-size: 21px;
+}
+
+.heading2 button {
+    border: none;
+    border-radius: 4px;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    width: 280px;
+    padding: 15px 20px;
+    background-color: #0f79af;
+    margin-top: 20px;
+}
+
+.main3 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.main3 .box {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.main3 .box h1 {
+    padding: 30px 80px;
+    font-weight: 700;
+    font-size: 45px;
+}
+
+.main3 .box p {
+    padding: 0px 70px 0 80px;
+    font-size: 24px;
+}
+
+.main3 .box:nth-child(2) {
+    padding: 10px 90px 10px 0px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5px 1px;
+}
+
+.images {
+    width: 220px;
+}
+
+.main3 .box:nth-child(2) img:hover {
+    transform: scale(1.01);
+    box-shadow: -1px 5px 15px black;
+}
+
+.footer ul {
+    list-style: none;
+}
+
+.footer {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 25px 0px;
+    background-color: #222222;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0px;
+}
+
+.footer nav:nth-child(2) ul {
+    color: #689ac9;
+    display: flex;
+    font-size: 15px;
+    column-gap: 20px;
+}
+
+.footer nav:nth-child(3) {
+    color: #8096a2;
+    font-size: 15px;
+    padding-top: 15px;
+}
+
+@media only screen and (max-width:1420px) {
+    .navbar {
+        padding: 0 30px;
+    }
+
+    .main3 .box h1 {
+        padding: 30px 50px;
+        font-weight: 700;
+        font-size: 45px;
+    }
+
+    .main3 .box p {
+        padding: 0px 70px 0 50px;
+        font-size: 24px;
+    }
+
+    .main3 .box:nth-child(2) {
+        padding: 10px 40px 10px 0px;
+        gap: 5px 5px;
+    }
+
+    .images {
+        width: 200px;
+    }
+
+}
+
+@media only screen and (max-width:1305px) {
+    .navbar nav:first-child ul {
+        column-gap: 5px;
+    }
+
+}
+
+@media only screen and (max-width:1205px) {
+    .navbar nav ul {
+        font-size: 15px;
+    }
+
+    .navbar button {
+        width: 100px;
+        font-size: 13px;
+        margin-right: 20px;
+    }
+
+    .main3 .box:nth-child(2) {
+        padding: 10px 50px 10px 0px;
+        gap: 5px 5px;
+    }
+
+    .images {
+        width: 170px;
+    }
+
+}
+
+@media only screen and (max-width:1100px) {
+    .navbar {
+        display: flex;
+        align-items: center;
+        justify-content: left;
+        padding: 0 10px;
+    }
+
+    .navbar nav:first-child ul {
+        display: flex;
+        column-gap: 0px;
+    }
+
+    .navbar button {
+        font-size: 12px;
+    }
+
+    .navbar nav:nth-child(2) ul {
+        gap: 1px;
+    }
+
+    #menu-logo {
+        width: 18px;
+    }
+
+    #user-logo {
+        width: 30px;
+    }
+
+    #search-logo {
+        width: 18px;
+    }
+
+    #subscription-logo {
+        width: 21px;
+    }
+
+    #prime-vdo {
+        width: 125px;
+    }
+
+    #tv-shows {
+        width: 120px;
+    }
+
+}
+
+@media only screen and (max-width:1060px) {
+
+    .navbar nav:first-child ul {
+        transform: translateY(-200px);
+        font-size: 10px;
+    }
+
+    #prime-vdo {
+        transform: translateY(200px);
+        font-size: 16px;
+    }
+
+    #menu-bar {
+        transform: translateY(200px);
+    }
+}
+
+@media only screen and (max-width:1000px) {
+    .navbar nav:first-child ul {
+        font-size: 5px;
+    }
+
+    .main3 .box:nth-child(2) {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .images {
+        width: 220px;
+    }
+}
+
+@media only screen and (max-width:925px) {
+    .navbar nav:first-child ul {
+        font-size: 1px;
+    }
+
+    .images {
+        width: 200px;
+    }
+}
+
+@media only screen and (max-width:880px) {
+
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    #menu-logo {
+        transform: translateY(-200px);
+        width: 0px;
+    }
+
+    .navbar button {
+        transform: translateY(-200px);
+        font-size: 0px;
+        width: 0px;
+        border: none;
+        border-radius: 0px;
+        font-weight: 0;
+        padding: 0px 0px;
+    }
+
+    #prime-vdo {
+        position: absolute;
+        left: 300px;
+    }
+
+    #menu-bar {
+        position: absolute;
+        right: 220px;
+    }
+
+    .navbar nav:nth-child(2) ul li:nth-child(4) {
+        padding: 0px;
+    }
+
+    .images {
+        width: 150px;
+    }
+}
+
+@media only screen and (max-width:710px) {
+
+    body {
+        background-color: black;
+    }
+
+    #prime-vdo {
+        left: 200px;
+    }
+
+    .main {
+        height: 82vh;
+    }
+
+    .heading {
+        width: 100%;
+        position: relative;
+        top: 300px;
+    }
+
+    .heading h1 {
+        text-align: center;
+    }
+
+    .heading p {
+        font-size: 17px;
+        text-align: center;
+    }
+
+    .heading button {
+        position: relative;
+        left: 180px;
+    }
+
+    .main2 {
+        margin-top: 30vh;
+        height: 82vh;
+    }
+
+    .heading2 {
+        width: 100%;
+        position: relative;
+        top: 520px;
+    }
+
+    .heading2 h1 {
+        text-align: center;
+    }
+
+    .heading2 p {
+        font-size: 17px;
+        text-align: center;
+    }
+
+    .heading2 button {
+        position: relative;
+        left: 180px;
+    }
+
+
+    .main3 {
+        grid-template-columns: 1fr;
+        background-color: white;
+        margin-top: 60vh;
+    }
+
+    .main3 .box:nth-child(2) {
+        padding: 20px 20px 20px 50px;
+        gap: 25px 15px;
+
+    }
+
+    .images {
+        width: 255px;
+    }
+
+}
+
+
+@media only screen and (max-width:600px) {
+    .images {
+        width: 205px;
+    }
+
+    #prime-vdo {
+        left: 150px;
+    }
+
+    .heading button {
+        left: 70px;
+    }
+
+    .heading2 button {
+        left: 70px;
+    }
+}
+
+@media only screen and (max-width:524px) {
+    .navbar nav:nth-child(2) ul {
+        position: relative;
+        left: 12px;
+    }
+
+    .navbar nav:first-child ul {
+        width: 0px;
+    }
+
+    #menu-bar {
+        position: absolute;
+        left: 20px;
+    }
+
+    .images {
+        width: 180px;
+    }
+
+    .main {
+        height: 62vh;
+    }
+
+    .main2 {
+        margin-top: 40vh;
+        height: 57vh;
+    }
+
+    .main3 {
+        margin-top: 80vh;
+    }
+
+    #prime-vdo {
+        left: 120px;
+    }
+
+    .heading button {
+        left: 70px;
+    }
+
+    .heading2 button {
+        left: 70px;
+    }
+}
+
+
+@media only screen and (max-width:460px) {
+    .navbar button {
+        width: 0px;
+        padding: 0px;
+        margin: 0px;
+        border: none;
+    }
+
+    #menu-logo {
+        width: 0px;
+        padding: 0px;
+        margin: 0px;
+        border: none;
+        height: 0px;
+    }
+
+
+    #prime-vdo {
+        left: 80px;
+    }
+
+    #search-logo {
+        padding: 0px 0px 0px 0px;
+    }
+
+    .main3 .box:nth-child(2) {
+        padding: 20px 0px 20px 10px;
+        gap: 10px 10px;
+
+    }
+
+    .heading button {
+        left: 20px;
+    }
+
+    .heading2 button {
+        left: 20px;
+    }
+
+}
+
+@media only screen and (max-width:400px) {
+    .images {
+        width: 170px;
+    }
+
+    #prime-vdo {
+        left: 70px;
+    }
+
+    .navbar nav:nth-child(2) ul {
+        width: 160px;
+        left: -2px;
+    }
+}
+
+@media only screen and (max-width:370px) {
+    .images {
+        width: 140px;
+    }
+
+    #prime-vdo {
+        left: 50px;
+    }
+
+    .navbar nav:nth-child(2) ul {
+        border: 2px solid white;
+    }
+
+    .heading button {
+        left: 20px;
+        width: 200px;
+    }
+
+    .heading2 button {
+        left: 20px;
+        width: 200px;
+    }
+
+    #user-logo {
+        width: 25px;
+    }
+
+    #search-logo {
+        position: relative;
+        left: 20px;
+    }
+}
